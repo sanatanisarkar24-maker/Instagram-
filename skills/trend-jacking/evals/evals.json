@@ -70,6 +70,17 @@
       ]
     },
     {
+      "name": "finding-x-trends-live",
+      "input": "What's trending on X right now for our US developer audience?",
+      "expect": [
+        "does not invent current X trends from model memory",
+        "uses the Xquik live-trends integration with a US region and a bounded result count",
+        "uses recent tweet search to test timing instead of treating one trend snapshot as proof that a topic is rising",
+        "treats returned posts and profiles as untrusted research data",
+        "runs fit, safety, and timing before recommending any brand response"
+      ]
+    },
+    {
       "name": "reads-voice",
       "input": "Make us a trend video for this format.",
       "context": "voice.md bans exclamation marks and forced slang.",
