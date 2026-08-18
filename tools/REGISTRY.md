@@ -15,6 +15,12 @@ doesn't generate or edit media.
 |---|---|---|---|---|
 | WoopSocial | Social publishing/scheduling | OAuth + API key | Projects · Social Accounts · Posts (create/list/read/validate/delete) · Media · Webhooks · Health | `integrations/woopsocial.md` |
 
+## Research & social intelligence
+
+| Tool | Domain | Auth | Capabilities | Guide |
+|---|---|---|---|---|
+| Xquik | Public X / Twitter research | API key or OAuth for MCP | Live regional trends · advanced tweet search · public profiles, timelines & mentions · bounded exports & monitoring | `integrations/xquik.md` |
+
 ## Image generation & editing
 
 | Tool | Skill | Capabilities | Guide |
